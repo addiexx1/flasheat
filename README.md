@@ -7,6 +7,8 @@
 npm install
 # Serve on localhost:3000
 node server
+# Run mongo db in another terminal
+mongod
 ```
 ## Files that were modified from base code are
 - server.js
