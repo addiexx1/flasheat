@@ -1,5 +1,5 @@
-## COMP 2406 A4 
- # Restaurant user management
+
+## Restaurant user management
 
 ## Quick Start
 ```bash
@@ -37,6 +37,5 @@ node server
     users
 
 ## Limitation
-# This assignment is not completed
-# Can't support anything related to order
+
 
