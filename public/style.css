@@ -1,0 +1,128 @@
+body{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande',sans-serif;
+    background: linear-gradient(45deg,#7bcdd15b,#bda5ff5b);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#container  i{
+    margin-right: 5px;
+    color: rgb(141, 160, 34);
+}
+#container{
+    padding: 1rem;
+}
+#container h3{
+    color: #666;
+}
+#alert{
+    color: red;
+    font-weight: bold;
+}
+
+.intro{
+    margin-bottom: 2rem;
+}
+#restaurantHeader{
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+#restaurantContainer{
+    position: relative;
+    display: flex;
+
+
+}
+
+.categoryDiv{
+    flex-grow: 1;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    margin-right: 1rem;
+    background-color: #b7e6e918;
+    max-width: 20vw;
+}
+.categoryHeader{
+    color: #259;
+    margin-bottom: 1rem;
+    font-family:'Franklin Gothic Medium', Arial;
+    font-size: large;
+}
+.categories{
+    padding: 1rem;
+    font-size: large;
+    text-align: left;
+}
+.categories a {
+    color: #777;
+    text-decoration: none;
+    text-align: left;
+}
+.categories a:hover {
+    color: #333;
+}
+
+.menuDiv{
+    padding: 1rem;
+    margin-right: 1rem;
+    flex-grow: 2;
+    background-color: rgba(240, 248, 255, 0.171);
+    min-width: 50vw;
+    max-width: 50vw;
+}
+
+.menuList > div{
+    margin-bottom: 1rem;
+}
+.menuList i{
+    color: rgba(72, 40, 253, 0.692);
+}
+.menuList i:hover{
+    color: rgb(65, 13, 252);
+}
+.menuList > div  .desc{
+    color:#555
+}
+
+.orderDiv{
+    position: sticky;
+    top: 200px;
+    flex-grow: 1;
+    padding: 1rem;
+    background-color: rgba(240, 248, 255, 0.199);
+    min-width: 25vw;
+    max-width: 25vw;
+    
+}
+.orderHeader{
+    font-weight: bold;
+    top:5px;
+    color:#444;
+    margin-bottom: 0.5rem;
+
+}
+.groupDiv{  
+    position: sticky;
+    top: 5px;
+}
+.orderDetail i{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    position: absolute;
+    right: 0;
+    color: #3cc0c7b4 ;
+}
+.orderDetail i:hover{
+    color:#3cc0c7 ;
+}
+
+
+button, select{
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 3px #888888;
+}
+button:hover{
+    background-color: #666;
+}
