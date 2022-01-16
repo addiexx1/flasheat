@@ -39,7 +39,7 @@ node server
 ## Limitation
 
 ## Screenshot
-![flasheat](flash%eat.png)
+![flasheat](flash%20eat.png)
 ![orderform](https://github.com/addiexx1/flasheat/blob/main/order%20form.png)
 ![user](User.png)
 
